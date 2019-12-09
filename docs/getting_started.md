@@ -127,8 +127,8 @@ Alternatively, you can also use a [cleaning pipeline](../environment_setup/iac-r
 you can just delete a resource group in the [Azure Portal](portal.azure.com).
 
 ## Create an Azure DevOps Azure ML Workspace Service Connection
-Install the **Azure Machine Learning** extension to your organization from the
-[marketplace](https://marketplace.visualstudio.com/items?itemName=ms-air-aiagility.vss-services-azureml),
+From the
+[Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=ms-air-aiagility.vss-services-azureml), install the **Azure Machine Learning** extension to your Azure DevOps organization 
 so that you can set up a service connection to your AML workspace.
 
 Create a service connection to your ML workspace via the [Azure DevOps Azure ML task instructions](https://marketplace.visualstudio.com/items?itemName=ms-air-aiagility.vss-services-azureml) to be able to execute the Azure ML training pipeline. The connection name specified here needs to be used for the value of the `WORKSPACE_SVC_CONNECTION` set in the variable group below.
