@@ -204,6 +204,7 @@ The pipeline consumes two artifacts:
 1. the result of the **Build Pipeline** as it contains configuration files
 1. the **model** trained and registered by the ML training pipeline
 
+To start, under your Azure DevOps project, navigate to "Pipeline -> Releases", andcreate a new pipeline.  
 Add an artifact to the pipeline and select **AzureML Model Artifact** source
 type. Select the **Service Endpoint** and **Model Names** from the drop down
 lists. **Service Endpoint** refers to the **Service connection** created in
